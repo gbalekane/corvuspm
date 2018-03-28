@@ -1,0 +1,172 @@
+id,name,idMenu,type,sortOrder,level,idle,menuClass,isAdminMenu
+1,menuToday,0,item,10,NULL,0,"Work Risk RequirementTest Financial Meeting ",0
+2,menuWork,0,menu,40,Project,1,"Work Risk Meeting ",0
+3,menuRisk,43,object,300,Project,0,"Risk ",0
+4,menuAction,2,object,90,Project,0,"Work Risk Meeting ",0
+5,menuIssue,43,object,320,Project,0,"Risk ",0
+6,menuReview,0,menu,330,NULL,1,"Work Meeting ",0
+7,menuFollowup,0,menu,100,NULL,1,"Work Risk RequirementTest Financial ",0
+8,menuImputation,7,item,110,NULL,0,"Work ",0
+9,menuPlanning,7,item,120,NULL,0,"Work ",0
+11,menuTool,0,menu,395,NULL,1,"Admin ",0
+13,menuParameter,0,menu,700,NULL,1,"Work Risk RequirementTest Financial Meeting Admin Automation EnvironmentalParameter ListOfValues Type HabilitationParameter ",0
+14,menuEnvironmentalParameter,0,menu,440,NULL,1,"Work Financial EnvironmentalParameter ",0
+15,menuClient,14,object,520,ReadWriteEnvironment,0,"Financial EnvironmentalParameter ",0
+16,menuProject,0,object,20,Project,0,"Work Risk RequirementTest Financial Meeting ",0
+17,menuUser,14,object,490,ReadWriteEnvironment,0,"EnvironmentalParameter HabilitationParameter ",1
+18,menuGlobalParameter,13,item,985,NULL,0,"Admin EnvironmentalParameter HabilitationParameter ",1
+19,menuProjectParameter,13,item,990,NULL,1,,0
+20,menuUserParameter,13,item,995,,0,"Work Risk RequirementTest Financial Meeting Admin Automation EnvironmentalParameter ListOfValues Type HabilitationParameter ",0
+21,menuHabilitation,37,item,1130,NULL,0,"HabilitationParameter ",1
+22,menuTicket,2,object,50,Project,0,"Work ",0
+25,menuActivity,2,object,70,Project,0,"Work ",0
+26,menuMilestone,2,object,80,Project,0,"Work ",0
+34,menuStatus,36,object,720,ReadWriteList,0,"ListOfValues ",0
+36,menuListOfValues,13,menu,705,NULL,1,"ListOfValues ",0
+37,menuHabilitationParameter,0,menu,1100,NULL,1,"Type ",1
+38,menuSeverity,36,object,755,ReadWriteList,0,"ListOfValues ",0
+39,menuLikelihood,36,object,745,ReadWriteList,0,"ListOfValues ",0
+40,menuCriticality,36,object,750,ReadWriteList,0,"ListOfValues ",0
+41,menuPriority,36,object,765,ReadWriteList,0,"ListOfValues ",0
+42,menuUrgency,36,object,760,ReadWriteList,0,"ListOfValues ",0
+43,menuRiskManagementPlan,0,menu,290,NULL,1,"Risk ",0
+44,menuResource,14,object,500,ReadWriteEnvironment,0,"Work EnvironmentalParameter ",0
+45,menuRiskType,79,object,860,ReadWriteType,0,"Type ",0
+46,menuIssueType,79,object,875,ReadWriteType,0,"Type ",0
+47,menuAccessProfile,37,object,1120,NULL,0,"HabilitationParameter ",1
+48,menuAccessRight,37,item,1150,NULL,0,"HabilitationParameter ",1
+49,menuProfile,37,object,1110,NULL,0,"HabilitationParameter ",1
+50,menuAffectation,14,object,470,Project,0,"EnvironmentalParameter ",0
+51,menuMessage,11,object,420,Project,0,"Admin ",0
+52,menuMessageType,79,object,895,ReadWriteType,0,"Type ",0
+53,menuTicketType,79,object,810,ReadWriteType,0,"Type ",0
+55,menuActivityType,79,object,815,ReadWriteType,0,"Type ",0
+56,menuMilestoneType,79,object,820,ReadWriteType,0,"Type ",0
+57,menuTeam,14,object,540,ReadWriteEnvironment,0,"EnvironmentalParameter ",0
+58,menuImportData,11,item,430,NULL,0,"Admin ",0
+59,menuWorkflow,88,object,580,ReadWriteEnvironment,0,"Automation ",0
+60,menuActionType,79,object,870,ReadWriteType,0,"Type ",0
+61,menuReports,7,item,150,NULL,0,"Work Risk RequirementTest Financial ",0
+62,menuMeeting,6,object,340,Project,0,"Work Meeting ",0
+63,menuDecision,6,object,360,Project,0,"Meeting ",0
+64,menuQuestion,6,object,370,Project,0,"Meeting ",0
+65,menuMeetingType,79,object,880,ReadWriteType,0,"Type ",0
+66,menuDecisionType,79,object,885,ReadWriteType,0,"Type ",0
+67,menuQuestionType,79,object,890,ReadWriteType,0,"Type ",0
+68,menuStatusMail,88,object,590,ReadWriteEnvironment,0,"Automation ",0
+69,menuMail,11,object,400,Project,0,"Admin ",0
+70,menuHabilitationReport,37,item,1140,NULL,0,"HabilitationParameter ",1
+71,menuHabilitationOther,37,item,1170,NULL,0,"HabilitationParameter ",1
+72,menuContact,14,object,510,ReadWriteEnvironment,0,"Financial EnvironmentalParameter ",0
+73,menuRole,36,object,715,ReadWriteList,0,"ListOfValues ",0
+74,menuFinancial,0,menu,200,NULL,1,"Work Financial ",0
+75,menuIndividualExpense,151,object,210,Project,0,"Work Financial ",0
+76,menuProjectExpense,151,object,220,Project,0,"Financial ",0
+78,menuPayment,152,object,270,Project,0,"Financial ",0
+79,menuType,13,menu,800,NULL,1,,0
+80,menuIndividualExpenseType,79,object,833,ReadWriteType,0,"Type ",0
+81,menuProjectExpenseType,79,object,837,ReadWriteType,0,"Type ",0
+82,menuInvoiceType,79,object,860,ReadWriteType,1,"Type ",0
+83,menuPaymentType,79,object,857,ReadWriteType,0,"Type ",0
+84,menuExpenseDetailType,79,object,841,ReadWriteType,0,"Type ",0
+85,menuCalendar,14,item,560,ReadWriteEnvironment,0,"Work EnvironmentalParameter ",0
+86,menuProduct,173,object,382,ReadWriteEnvironment,0,"Work Meeting EnvironmentalParameter",0
+87,menuProductVersion,173,object,384,ReadWriteEnvironment,0,"Work Meeting EnvironmentalParameter",0
+88,menuAutomation,0,menu,570,NULL,1,"Automation ",0
+89,menuTicketDelay,88,object,600,ReadWriteEnvironment,0,"Automation ",0
+90,menuIndicatorDefinition,88,object,610,ReadWriteEnvironment,0,"Automation ",0
+91,menuAlert,11,object,410,Project,0,"Admin ",0
+92,menuAdmin,0,item,1200,NULL,0,"Admin ",1
+93,menuProjectType,79,object,805,ReadWriteType,0,"Type ",0
+94,menuActivityPrice,152,object,280,Project,0,"Financial ",0
+95,menuRecipient,14,object,530,ReadWriteEnvironment,0,"Financial EnvironmentalParameter ",0
+96,menuTerm,152,object,250,Project,0,"Financial ",0
+97,menuBill,152,object,260,Project,0,"Financial ",0
+100,menuBillType,79,object,853,ReadWriteType,0,"Type ",0
+101,menuDocumentType,79,object,900,ReadWriteType,0,"Type ",0
+102,menuDocument,0,object,30,Project,0,"Work Risk RequirementTest Financial Meeting ",0
+103,menuDocumentDirectory,14,object,550,ReadWriteEnvironment,0,"EnvironmentalParameter ",0
+104,menuContext,14,object,480,NULL,0,"EnvironmentalParameter ",0
+105,menuContextType,79,object,905,ReadWriteType,0,"Type ",0
+106,menuResourcePlanning,7,item,140,NULL,0,"Work ",0
+107,menuRequirementType,79,object,910,ReadWriteType,0,"Type ",0
+108,menuTestCaseType,79,object,915,ReadWriteType,0,"Type ",0
+109,menuTestSessionType,79,object,920,ReadWriteType,0,"Type ",0
+110,menuRequirementTest,0,menu,160,NULL,1,"Work RequirementTest ",0
+111,menuRequirement,110,object,170,Project,0,"RequirementTest ",0
+112,menuTestCase,110,object,180,Project,0,"RequirementTest ",0
+113,menuTestSession,110,object,190,Project,0,"RequirementTest ",0
+114,menuRiskLevel,36,object,770,ReadWriteList,0,"ListOfValues ",0
+115,menuFeasibility,36,object,775,ReadWriteList,0,"ListOfValues ",0
+116,menuPredefinedNote,88,object,620,ReadWriteEnvironment,0,"Automation ",0
+117,menuEfficiency,36,object,780,ReadWriteList,0,"ListOfValues ",0
+118,menuTicketSimple,2,object,60,Project,0,"Work ",0
+119,menuOpportunity,43,object,310,Project,0,"Risk ",0
+120,menuOpportunityType,79,object,865,ReadWriteType,0,"Type ",0
+121,menuHealth,36,object,730,ReadWriteList,0,"ListOfValues ",0
+122,menuAudit,11,object,435,NULL,0,"Admin ",0
+123,menuPortfolioPlanning,7,item,130,NULL,0,"Work ",0
+124,menuPeriodicMeeting,6,object,350,Project,0,"Meeting ",0
+125,menuCommand,152,object,240,Project,0,"Financial ",0
+126,menuCommandType,79,object,849,ReadWriteType,0,"Type ",0
+127,menuOverallProgress,36,object,735,ReadWriteList,0,"ListOfValues ",0
+128,menuQuality,36,object,725,ReadWriteList,0,"ListOfValues ",0
+129,menuTrend,36,object,740,ReadWriteList,0,"ListOfValues ",0
+130,menuChecklistDefinition,88,object,630,ReadWriteEnvironment,0,"Automation ",0
+131,menuQuotation,152,object,230,Project,0,"Financial ",0
+132,menuQuotationType,79,object,845,ReadWriteType,0,"Type ",0
+133,menuDiary,7,item,145,NULL,0,"Work ",0
+134,menuClientType,79,object,925,ReadWriteType,0,"Type ",0
+135,menuAccessRightNoProject,37,item,1160,NULL,0,"HabilitationParameter ",1
+136,menuPluginManagement,143,item,9010,NULL,0,"Admin ",1
+137,menuPaymentDelay,36,object,785,ReadWriteList,0,"ListOfValues ",0
+138,menuPaymentMode,36,object,786,ReadWriteList,0,"ListOfValues ",0
+139,menuDeliveryMode,36,object,787,ReadWriteList,0,"ListOfValues ",0
+140,menuMeasureUnit,36,object,788,ReadWriteList,0,"ListOfValues ",0
+141,menuComponent,173,object,386,ReadWriteEnvironment,0,"Work Meeting EnvironmentalParameter",0
+142,menuComponentVersion,173,object,388,ReadWriteEnvironment,0,"Work Meeting EnvironmentalParameter",0
+143,menuPlugin,NULL,menu,9000,NULL,1,Admin,1
+144,menuProductType,79,object,930,ReadWriteType,0,"Type ",0
+145,menuComponentType,79,object,932,ReadWriteType,0,"Type ",0
+146,menuGallery,152,item,285,NULL,0,Financial,0
+147,menuProviderType,79,object,927,ReadWriteType,0,"Type ",0
+148,menuProvider,14,object,525,ReadWriteEnvironment,0,"Financial EnvironmentalParameter ",0
+149,menuResolution,36,object,722,ReadWriteList,0,"ListOfValues ",0
+150,menuDashboardTicket,0,item,15,NULL,0,"Work Risk RequirementTest Financial Meeting ",0
+151,menuExpenses,74,menu,202,NULL,1,,0
+152,menuIncomes,74,menu,225,NULL,1,,0
+153,menuCallForTender,151,object,204,Project,0,"Financial ",0
+154,menuTender,151,object,206,Project,0,"Financial ",0
+155,menuCallForTenderType,79,object,825,ReadWriteType,0,"Type ",0
+156,menuTenderType,79,object,829,ReadWriteType,0,"Type ",0
+157,menuTenderStatus,36,object,790,NULL,0,"ListOfValues ",0
+158,menuOrganization,0,object,18,ReadWriteEnvironment,0,EnvironmentalParameter,0
+159,menuOrganizationType,79,object,803,ReadWriteType,0,Type,0
+160,menuProductVersionType,79,object,933,ReadWriteType,0,Type,0
+161,menuComponentVersionType,79,object,934,ReadWriteType,0,Type,0
+162,menuJoblistDefinition,88,object,640,ReadWriteEnvironment,0,"Automation ",0
+163,menuDeliverableWeight,36,object,792,ReadWriteList,0,ListOfValues,0
+164,menuDeliverableStatus,36,object,794,ReadWriteList,0,ListOfValues,0
+165,menuDeliverableType,79,object,938,ReadWriteType,0,Type,0
+166,menuIncomingType,79,object,936,ReadWriteType,0,Type,0
+167,menuDeliverable,6,object,374,Project,0,"Work Meeting",0
+168,menuIncoming,6,object,372,Project,0,"Work Meeting",0
+169,menuKpiDefinition,88,object,615,ReadWriteEnvironment,0,Automation,0
+170,menuCategory,36,object,791,ReadWriteType,0," ListOfValues",0
+171,menuIncomingWeight,36,object,791,ReadWriteList,0,ListOfValues,0
+172,menuIncomingStatus,36,object,793,ReadWriteList,0,ListOfValues,0
+173,menuConfiguration,0,menu,380,NULL,1,"Work Meeting EnvironmentalParameter",0
+174,menuCatalog,152,object,286,Project,0,Financial,0
+175,menuCatalogType,79,object,858,ReadWriteType,0,Type,0
+176,menuDelivery,6,object,375,Project,0,"Work Meeting",0
+177,menuActivityStream,0,item,19,NULL,0,"Work Risk RequirementTest Financial Meeting",0
+178,menuLanguage,36,object,795,ReadWriteList,0,ListOfValues,0
+179,menuVersionsPlanning,173,item,390,NULL,0,Work,0
+180,menuStatusMailPerProject,88,object,591,Project,0,Admin,0
+181,menuIndicatorDefinitionPerProject,88,object,611,Project,0,Automation,0
+182,menuTicketDelayPerProject,88,object,601,Project,0,Automation,0
+183,menuDeliveryType,79,object,940,ReadWriteType,0,Type,0
+184,menuEmailTemplate,88,object,585,ReadWriteEnvironment,0,Automation,0
+185,menuNotification,11,object,431,Project,0,"Admin Notification",0
+186,menuNotificationDefinition,88,object,672,ReadWriteEnvironment,0,"Automation Notification",0
+187,menuMailToSend,11,object,402,,0,Admin,0
